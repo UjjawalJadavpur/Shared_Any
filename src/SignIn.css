@@ -1,0 +1,52 @@
+.Login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 50vh;
+  }
+  
+  .Login-input-container {
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%; 
+    max-width: 300px;
+  }
+  
+  .Login-input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #d2d1d1;
+  }
+  
+  input[type="text"],
+  input[type="password"] {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    padding-left: 40px; /* Ensure padding for text does not overlap with icon */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus {
+    border-color: #007BFF;
+  }
+  
+  
+  .login-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #1170de;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .login-button:hover {
+    background-color: #0056b3;
+  }
+  

@@ -1,0 +1,40 @@
+body, html {
+  background-image: url("./background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+.form-container{
+  border: 2px solid black;
+  background-color: rgb(248, 249, 248);
+  margin: 80px;
+  margin-left: 300px;
+  width:40vw;
+  height: 70vh;
+  flex: 1;
+}
+
+.Button-container{
+  display: flex;
+  width: 100%;
+}
+
+.button {
+  flex: 1;
+  padding: 15px;
+  border: none;
+  background-color: #7a99ba;
+  color: white;
+  font-size: 18px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #64a8f1;
+}
+
+.button.active {
+  background-color: #044081;
+  font-weight: bold;
+}

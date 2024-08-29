@@ -1,0 +1,53 @@
+.Registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 500px;
+    height: 50vh;
+  }
+  
+  .Reg-input-container {
+    position: relative;
+    margin-bottom: 15px;
+    width: 100%; 
+    max-width: 300px; 
+  }
+  
+  .Reg-input-icon {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #d2d1d1;
+  }
+  
+  input[type="text"],
+  input[type="password"],
+  input[type="email"] {
+    width: calc(100% - 40px); 
+    padding: 10px;
+    padding-left: 40px; /* Ensure padding for text does not overlap with icon */
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  input[type="text"]:focus,
+  input[type="password"]:focus,
+  input[type="email"]:focus {
+    border-color: #007BFF;
+  }
+  
+  .register-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #2c65e1;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  
+  .register-button:hover {
+    background-color: #0056b3;
+  }
+  
